@@ -1,0 +1,20 @@
+[
+  {
+    "name": "UAIC-BSc-Math Archive",
+    "slug": "math-fii-uaic-archive",
+    "organization": "UAIC-BSc-Math",
+    "status": "Teaching Archive",
+    "summary": "Mathematical-computing coursework archive: functional analysis, numerical analysis, evolutionary computation, graph theory, and bachelor thesis drafts.",
+    "repo": "https://github.com/UAIC-BSc-Math/mf4eld",
+    "live": "",
+    "tags": [
+      "Academic",
+      "Mathematics",
+      "Functional Analysis",
+      "PDEs"
+    ],
+    "related": [
+      "curricula-live"
+    ]
+  }
+]
