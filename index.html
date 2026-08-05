@@ -1,187 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UAIC BSc Math Archive - GitHub Pages</title>
-    <meta name="description" content="Academic archive for mathematics and computational math coursework, functional analysis, and mathematical modeling.">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#d9e0eb">
+  <meta name="description" content="A mathematical computing archive covering functional analysis, differential equations, numerical ideas, graph theory, and research drafts.">
+  <title>Mathematical Computing Archive</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Inter:wght@400;500;600;700;800&family=Source+Serif+4:opsz,wght@8..60,500;8..60,650&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
 </head>
-<body>
-    <header class="navbar">
-        <div class="nav-container">
-            <a href="https://dragosandreibobu.github.io" class="nav-brand-back">
-                &larr; <span class="brand-text">Personal Hub</span>
-            </a>
-            <div class="nav-org-title">UAIC BSc Math Archive</div>
-            <nav class="nav-links">
-                <a href="#mission">About</a>
-                <a href="#connections">Network</a>
-                <a href="#projects">Work</a>
-                <a href="#docs">Notes</a>
-                <a href="https://github.com/UAIC-BSc-Math" target="_blank" class="nav-btn">GitHub</a>
-            </nav>
-        </div>
-    </header>
+<body style="--accent:#607da2;--accent-deep:#415b7b;--accent-soft:#d9e0eb">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="back-link" href="https://dragosandreibobu.github.io">← Personal portfolio</a>
+      <div class="site-name">Mathematical Computing</div>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#projects">Projects</a><a href="#notes">Notes</a><a class="github-link" href="https://github.com/UAIC-BSc-Math" target="_blank" rel="noreferrer">GitHub</a>
+      </nav>
+    </div>
+  </header>
 
-    <main class="container">
-        <!-- Hero -->
-        <section id="mission" class="hero-section">
-            <div class="hero-glow"></div>
-            <span class="badge">Mathematics archive</span>
-            <h1 class="hero-title">UAIC BSc Math Archive</h1>
-            <p class="hero-bio">A navigable archive of mathematical-computing coursework, models, notes, and research drafts.</p>
-        </section>
+  <main id="main" class="workspace">
+    <section class="hero" aria-labelledby="site-title">
+      <article class="hero-paper">
+        <p class="badge">Mathematics and modelling</p>
+        <h1 id="site-title">Mathematical <span>Computing</span></h1>
+        <p class="hero-summary">Notes, models, and coursework connecting functional analysis, differential equations, graph theory, numerical reasoning, and computational experimentation.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#projects">Explore projects</a><a class="button button-secondary" href="https://github.com/UAIC-BSc-Math/mf4eld" target="_blank" rel="noreferrer">Open main project ↗</a></div>
+        <p class="hero-note">Formal structure makes intuition reusable.</p>
+      </article>
+      <article class="hero-visual" aria-label="Visual summary">
+        <div class="visual-top"><span>Workspace overview</span><span aria-hidden="true">● ● ●</span></div>
+        <div class="visual-content"><div class="illustration math-plot" aria-hidden="true"><svg viewBox="0 0 320 210"><path class="axis" d="M35 180H300M55 198V20"/><path class="curve" d="M55 150 C82 35,105 42,127 128 S171 190,195 98 S240 45,262 133 S286 158,302 75"/><circle cx="127" cy="128" r="5"/><circle cx="195" cy="98" r="5"/><circle cx="262" cy="133" r="5"/></svg><div class="math-formula">T(n) = O(n log n) · ∂u/∂t = Δu</div></div></div>
+        <div class="visual-label"><strong>Models · proofs · computation</strong><span>A paper-like archive for mathematical structures that support software and research.</span></div>
+      </article>
+    </section>
 
-        <!-- Connection -->
-        <section id="connections" class="info-card-section">
-            <div class="info-card">
-                <h3>Connected work</h3>
-                <p>Provides the mathematical foundations behind the wider research and software work.</p>
-                <div class="related-orgs">
-                    <strong>Related organizations:</strong>
-                    <div class="related-links">
-                        <a href="https://curricula-live.github.io" class="related-link">curricula-live</a> <a href="https://DigitalChalkLab.github.io" class="related-link">DigitalChalkLab</a> <a href="https://Hyperspace-Intelligence.github.io" class="related-link">Hyperspace-Intelligence</a> 
-                    </div>
-                </div>
-            </div>
-        </section>
+    <section class="workbench" aria-label="Context and facts">
+      <article class="connection-card"><p class="badge">Connected work</p><h2 class="object-heading">Part of a wider desk.</h2><p>Mathematical foundations feed directly into graph modelling, algorithms, machine learning, simulation, and the research-oriented parts of the wider project ecosystem.</p><div class="related-links"><a href="https://curricula-live.github.io" target="_blank" rel="noreferrer">curricula.live</a><a href="https://UAIC-BSc-ComputerScience.github.io" target="_blank" rel="noreferrer">Computer Science archive</a><a href="https://Machine-Learning-Compatible-Game-Engine.github.io" target="_blank" rel="noreferrer">MLCGE Lab</a><a href="https://dragosandreibobu.github.io" target="_blank" rel="noreferrer">Personal portfolio</a></div></article>
+      <aside class="facts-card"><p class="badge">At a glance</p><h2 class="object-heading">Working notes</h2><dl class="facts"><div><dt>Focus</dt><dd>Functional analysis · PDEs · graph theory</dd></div><div><dt>Mode</dt><dd>Coursework notes · computational models · research drafts</dd></div><div><dt>Connection</dt><dd>Algorithms · simulation · ML · knowledge graphs</dd></div><div><dt>Status</dt><dd>Academic archive under gradual organisation</dd></div></dl></aside>
+    </section>
 
-        <!-- Projects grid -->
-        <section id="projects" class="section">
-            <div class="section-header">
-                <h2 class="section-title">Projects</h2>
-                <p class="section-desc">Selected coursework and models from the mathematics programme.</p>
-                <div class="filters">
-                    <button class="filter-btn active" data-filter="all">All</button>
-                    <button class="filter-btn" data-filter="active">Active</button>
-                    <button class="filter-btn" data-filter="research">Research</button>
-                    <button class="filter-btn" data-filter="teaching">Teaching</button>
-                    <button class="filter-btn" data-filter="archived">Archived</button>
-                </div>
-            </div>
-            <div class="projects-grid" id="projects-container">
-                <!-- Dynamically populated -->
-            </div>
-        </section>
+    <section id="projects" class="section" aria-labelledby="projects-heading">
+      <div class="section-heading"><p class="badge">Project notebook</p><h2 id="projects-heading">Selected work</h2><p>Repositories and experiments presented with clear status, scope, and technical context.</p><div class="filters" role="group" aria-label="Filter projects"><button class="filter-btn active" data-filter="all" aria-pressed="true">All</button><button class="filter-btn" data-filter="active" aria-pressed="false">Active</button><button class="filter-btn" data-filter="research" aria-pressed="false">Research</button><button class="filter-btn" data-filter="teaching" aria-pressed="false">Teaching</button><button class="filter-btn" data-filter="archive" aria-pressed="false">Archive</button></div></div>
+      <div class="projects-ledger"><div class="projects-grid" id="projects-container"></div></div>
+    </section>
 
-        <!-- Docs standard -->
-        <section id="docs" class="section">
-            <div class="section-header">
-                <h2 class="section-title">Reference notes</h2>
-                <p class="section-desc">Short records for context, architecture, planning, and standards.</p>
-            </div>
-            <div class="docs-grid">
-                <a href="docs/overview.md" class="doc-card">
-                    <h4>Overview & Context</h4>
-                    <p>Comprehensive description of this workspace's mission and targets.</p>
-                </a>
-                <a href="docs/architecture.md" class="doc-card">
-                    <h4>Architecture & Topology</h4>
-                    <p>Internal software architecture and design pattern guidelines.</p>
-                </a>
-                <a href="docs/roadmap.md" class="doc-card">
-                    <h4>Ecosystem Roadmap</h4>
-                    <p>Milestones, feature integrations, and future project phases.</p>
-                </a>
-                <a href="docs/projects.md" class="doc-card">
-                    <h4>Project Catalog Specification</h4>
-                    <p>Detailed technical inventory of code repositories.</p>
-                </a>
-                <a href="docs/documentation-standard.md" class="doc-card">
-                    <h4>Engineering Standards</h4>
-                    <p>Source directory structures, naming schemes, and git flow rules.</p>
-                </a>
-            </div>
-        </section>
-    </main>
+    <section id="notes" class="section" aria-labelledby="notes-heading">
+      <div class="section-heading"><p class="badge">Reference notes</p><h2 id="notes-heading">Context before code.</h2><p>Short documentation records covering architecture, scope, planning, and engineering standards.</p></div>
+      <div class="docs-note"><div class="docs-grid"><a class="doc-card" href="docs/overview.md"><h3>Overview & context</h3><p>Mission, scope, and how this workspace fits the broader ecosystem.</p></a><a class="doc-card" href="docs/architecture.md"><h3>Architecture & topology</h3><p>Design boundaries, components, and technical decisions.</p></a><a class="doc-card" href="docs/roadmap.md"><h3>Roadmap</h3><p>Milestones, pending work, and future directions.</p></a><a class="doc-card" href="docs/projects.md"><h3>Project catalog</h3><p>A structured inventory of repositories and experiments.</p></a><a class="doc-card" href="docs/documentation-standard.md"><h3>Documentation standard</h3><p>Conventions for readable repositories, Git workflow, and technical notes.</p></a></div></div>
+    </section>
+  </main>
 
-    <footer class="footer">
-        <div class="footer-container">
-            <p>Part of the Dragoș-Andrei Bobu project ecosystem &bull; <a href="https://dragosandreibobu.github.io">https://dragosandreibobu.github.io</a></p>
-            <p><a href="https://github.com/UAIC-BSc-Math" target="_blank">GitHub Organization</a></p>
-        </div>
-    </footer>
+  <footer class="footer"><p>Part of the Dragoș-Andrei Bobu project ecosystem · 2026</p><p><a href="https://dragosandreibobu.github.io">Personal portfolio</a> · <a href="https://github.com/UAIC-BSc-Math" target="_blank" rel="noreferrer">GitHub organization</a></p></footer>
 
-    <script>
-        const projects = [
+  <script>
+    const projects = [
   {
-    "name": "UAIC-BSc-Math Archive",
-    "slug": "math-fii-uaic-archive",
-    "organization": "UAIC-BSc-Math",
-    "status": "Teaching Archive",
-    "summary": "Mathematical-computing coursework archive: functional analysis, numerical analysis, evolutionary computation, graph theory, and bachelor thesis drafts.",
+    "name": "Mathematical computing coursework archive",
+    "status": "Research Archive",
+    "summary": "Coursework and drafts spanning functional analysis, numerical methods, differential equations, graph theory, evolutionary computation, and mathematical modelling.",
     "repo": "https://github.com/UAIC-BSc-Math/mf4eld",
     "live": "",
     "tags": [
-      "Academic",
-      "Mathematics",
-      "Functional Analysis",
-      "PDEs"
-    ],
-    "related": [
-      "curricula-live"
+      "Functional analysis",
+      "PDEs",
+      "Graph theory",
+      "Numerical methods"
     ]
   }
 ];
-        const container = document.getElementById('projects-container');
-        const filterBtns = document.querySelectorAll('.filter-btn');
-
-        function renderProjects(filter = 'all') {
-            container.innerHTML = '';
-            projects.forEach(p => {
-                const statusLower = p.status.toLowerCase();
-                let shouldShow = false;
-
-                if (filter === 'all') {
-                    shouldShow = true;
-                } else if (filter === 'active' && statusLower.includes('active')) {
-                    shouldShow = true;
-                } else if (filter === 'research' && statusLower.includes('research')) {
-                    shouldShow = true;
-                } else if (filter === 'teaching' && statusLower.includes('teaching')) {
-                    shouldShow = true;
-                } else if (filter === 'archived' && statusLower.includes('archived')) {
-                    shouldShow = true;
-                }
-
-                if (!shouldShow) return;
-
-                const card = document.createElement('div');
-                card.className = 'project-card fade-in';
-                
-                const badges = p.tags.map(t => `<span class="tag">${t}</span>`).join('');
-                const relatedLinks = p.related ? p.related.map(r => `<span class="related-org-tag">${r}</span>`).join(' ') : '';
-                
-                card.innerHTML = `
-                    <div class="project-card-header">
-                        <span class="project-status">${p.status}</span>
-                    </div>
-                    <h3>${p.name}</h3>
-                    <p>${p.summary}</p>
-                    <div class="project-tags">${badges}</div>
-                    ${relatedLinks ? `<div class="project-related-orgs"><strong>Related Orgs:</strong> ${relatedLinks}</div>` : ''}
-                    <div class="project-links">
-                        <a href="${p.repo}" target="_blank" class="link-btn">Code Repository</a>
-                        ${p.live ? `<a href="${p.live}" target="_blank" class="link-btn primary">Live Demo</a>` : ''}
-                    </div>
-                `;
-                container.appendChild(card);
-            });
-        }
-
-        filterBtns.forEach(btn => {
-            btn.addEventListener('click', (e) => {
-                filterBtns.forEach(b => b.classList.remove('active'));
-                btn.classList.add('active');
-                renderProjects(btn.dataset.filter);
-            });
-        });
-
-        renderProjects();
-    </script>
+    const container = document.getElementById('projects-container');
+    const buttons = [...document.querySelectorAll('.filter-btn')];
+    const escapeHtml = value => String(value).replace(/[&<>'"]/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[char]));
+    function renderProjects(filter = 'all') {
+      const visible = projects.filter(project => filter === 'all' || project.status.toLowerCase().includes(filter));
+      container.innerHTML = visible.map(project => `
+        <article class="project-card">
+          <span class="project-status">${escapeHtml(project.status)}</span>
+          <h3>${escapeHtml(project.name)}</h3>
+          <p>${escapeHtml(project.summary)}</p>
+          <div class="project-tags">${project.tags.map(tag => `<span class="tag">${escapeHtml(tag)}</span>`).join('')}</div>
+          <div class="project-links"><a class="link-btn" href="${escapeHtml(project.repo)}" target="_blank" rel="noreferrer">Repository ↗</a>${project.live ? `<a class="link-btn primary" href="${escapeHtml(project.live)}" target="_blank" rel="noreferrer">Live project ↗</a>` : ''}</div>
+        </article>`).join('');
+      if (!visible.length) container.innerHTML = '<article class="project-card"><span class="project-status">No entries</span><h3>No projects match this filter yet.</h3></article>';
+    }
+    buttons.forEach(button => button.addEventListener('click', () => { buttons.forEach(item => { item.classList.remove('active'); item.setAttribute('aria-pressed','false'); }); button.classList.add('active'); button.setAttribute('aria-pressed','true'); renderProjects(button.dataset.filter); }));
+    renderProjects();
+  </script>
 </body>
 </html>
